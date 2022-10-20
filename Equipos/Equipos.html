@@ -104,6 +104,36 @@
 			color:#2ae8bf;
 			text-decoration:none;
 		}
+		.Teams_table
+		{
+			width:100%;
+		}
+		.team_img
+		{
+			width:80%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		td
+		{
+			padding:5%;
+			width:50%;
+			position:relative;
+			height:0;
+			padding-bottom: 13%;
+			border:white 1px solid;
+		}
+		.Pad
+		{
+			background-color:#333333;
+			border-radius: 15px 15px 15px 15px;
+			transition: 0.3s;
+		}
+		.Pad:hover
+		{
+			background-color:#555555;
+		}
 		</style>
 		<script>
 			/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
@@ -137,14 +167,52 @@
 				<div id="div_1">
 					<div id="boton"" onclick="openNav()">&#9776;</div>
 					<a href="index.html">
-						<img src="../assets/LEC_logo.png" id="img_1"></img>
+						<img src="../assets/LEC_logo.png" id="img_1">
 					</a>
 					<div id="title">
 						<a href="../index.html" class="blue">LEC Wiki</a>
 					</div>
 				</div>
 			</header>
-				equipos
+			<div>
+				<table id="Teams_table">
+					<tr>
+						<td>
+							<div class="Pad">
+								<img src="../assets/G2_logo.png" class="team_img">
+							</div> 		
+						</td>
+						<td>
+							<div class="Pad">
+								<img src="../assets/BDS_logo.png" class="team_img">
+							</div>		
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="Pad">
+								<img src="../assets/FNC_logo.png" class="team_img">
+							</div> 		
+						</td>
+						<td>
+							<div class="Pad">
+								<img src="../assets/BDS_logo.png" class="team_img">
+							</div>		
+						</td>
+					</tr><tr>
+						<td>
+							<div class="Pad">
+								<img src="../assets/FNC_logo.png" class="team_img">
+							</div> 		
+						</td>
+						<td>
+							<div class="Pad">
+								<img src="../assets/BDS_logo.png" class="team_img">
+							</div>		
+						</td>
+					</tr>
+				</table>
+			</div>
 			<footer>
 				<div id="foot">
 					<div id="div_2">This is a fanpage, for the actual LEC website click <a href="https://lolesports.com/" id="a_1">here</a></div>
